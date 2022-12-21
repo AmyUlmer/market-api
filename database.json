@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isVendor": false
+    },
+    {
+      "id": 2,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isVendor": false
+    },
+    {
+      "id": 3,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isVendor": true
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isVendor": true
+    }
+  ],
+  "retailOwners": [
+    {
+      "id": 2,
+      "retailName": "Madison Goods",
+      "streetAddress": "1624 S. Madison Ave",
+      "city": "Tulsa",
+      "state": "OK",
+      "userId": 1
+    },
+    {
+      "id": 1,
+      "retailName": "12 South",
+      "streetAddress": "1337 S. Richmond Ave",
+      "city": "Tulsa",
+      "state": "OK",
+      "userId": 2
+    },
+    {
+      "retailName": "36th Street North",
+      "streetAddress": "1337 S. Richmond Ave.",
+      "city": "Tulsa",
+      "state": "OK",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "retailName": "36th Street North",
+      "streetAddress": "1337 S. Richmond Ave.",
+      "city": "Tulsa",
+      "state": "OK",
+      "userId": 1,
+      "id": 4
+    }
+  ],
+  "vendors": [
+    {
+      "id": 1,
+      "vendorName": "3 Sisters Ceramics",
+      "description": "Just three sassy sister living their best lives and throwing clay all day",
+      "img": "",
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "vendorName": "2 Brothers Bread",
+      "description": "Just two brothers baking bread",
+      "img": "",
+      "userId": 4
+    },
+    {
+      "vendorName": "Bonnie's Stash",
+      "description": "Weaving goddess",
+      "img": "",
+      "userId": 3,
+      "id": 3
+    }
+  ],
+  "eventVendors": [
+    {
+      "id": 1,
+      "eventId": 2,
+      "vendorId": 2
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "vendorId": 1
+    },
+    {
+      "eventId": 1,
+      "vendorId": 3,
+      "id": 3
+    }
+  ],
+  "vendorProducts": [
+    {
+      "productTypeId": 1,
+      "vendorId": 1,
+      "id": 1
+    },
+    {
+      "productTypeId": 2,
+      "vendorId": 2,
+      "id": 2
+    },
+    {
+      "productTypeId": 1,
+      "vendorId": 3,
+      "id": 3
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Handmade Crafts"
+    },
+    {
+      "id": 2,
+      "name": "Prepared Food"
+    },
+    {
+      "id": 3,
+      "name": "Jewelry"
+    },
+    {
+      "id": 4,
+      "name": "Nursery Plants"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Winter Solstices",
+      "date": "12/31/2023",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "vendorLocation": "Outdoors",
+      "img": "",
+      "userId": 1,
+      "retailOwnerId": 2
+    },
+    {
+      "id": 2,
+      "name": "Summer Solstice",
+      "date": "01/01/2023",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "vendorLocation": "Outdoors",
+      "img": "",
+      "userId": 4,
+      "retailOwnerId": 2
+    }
+  ]
+}
