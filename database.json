@@ -27,14 +27,6 @@
   ],
   "retailOwners": [
     {
-      "id": 2,
-      "retailName": "Madison Goods",
-      "streetAddress": "1624 S. Madison Ave",
-      "city": "Tulsa",
-      "state": "OK",
-      "userId": 1
-    },
-    {
       "id": 1,
       "retailName": "12 South",
       "streetAddress": "1337 S. Richmond Ave",
@@ -43,20 +35,12 @@
       "userId": 2
     },
     {
-      "retailName": "36th Street North",
-      "streetAddress": "1337 S. Richmond Ave.",
+      "id": 2,
+      "retailName": "Madison Goods",
+      "streetAddress": "1624 S. Madison Ave",
       "city": "Tulsa",
       "state": "OK",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "retailName": "36th Street North",
-      "streetAddress": "1337 S. Richmond Ave.",
-      "city": "Tulsa",
-      "state": "OK",
-      "userId": 1,
-      "id": 4
+      "userId": 1
     }
   ],
   "vendors": [
@@ -73,14 +57,8 @@
       "description": "Just two brothers baking bread",
       "img": "",
       "userId": 4
-    },
-    {
-      "vendorName": "Bonnie's Stash",
-      "description": "Weaving goddess",
-      "img": "",
-      "userId": 3,
-      "id": 3
     }
+  
   ],
   "eventVendors": [
     {
@@ -92,12 +70,8 @@
       "id": 2,
       "eventId": 1,
       "vendorId": 1
-    },
-    {
-      "eventId": 1,
-      "vendorId": 3,
-      "id": 3
     }
+  
   ],
   "vendorProducts": [
     {
@@ -109,12 +83,8 @@
       "productTypeId": 2,
       "vendorId": 2,
       "id": 2
-    },
-    {
-      "productTypeId": 1,
-      "vendorId": 3,
-      "id": 3
     }
+  
   ],
   "productTypes": [
     {
@@ -137,7 +107,7 @@
   "events": [
     {
       "id": 1,
-      "name": "Winter Solstices",
+      "name": "Winter Solstice",
       "date": "12/31/2023",
       "startTime": "10:00",
       "endTime": "14:00",
@@ -154,8 +124,8 @@
       "endTime": "14:00",
       "vendorLocation": "Outdoors",
       "img": "",
-      "userId": 4,
-      "retailOwnerId": 2
+      "userId": 2,
+      "retailOwnerId": 1
     }
   ]
 }
